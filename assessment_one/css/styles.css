@@ -1,0 +1,19 @@
+body {
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+* {
+	font-family: arial, sans-serif;
+}
+
+#header, h1 {
+	color: #808080;
+	background-color: #ffdab9;
+}
+
+aside, main {
+	color: #e5e5e5;
+}
