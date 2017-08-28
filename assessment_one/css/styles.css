@@ -1,19 +1,45 @@
-body {
-	background-image: url("../images/background.jpg");
-	background-repeat: no-repeat;
-	background-size:cover;
-	background-attachment: fixed;
+html, body {
+	margin: 0px;
+	padding: 0px;
 }
 
-* {
-	font-family: arial, sans-serif;
-}
-
-#header, h1 {
-	color: #808080;
+.header {
+	display: block;
+	width: 100%;
+	height: 200px;
 	background-color: #ffdab9;
+	margin-bottom: 30px;
 }
 
-aside, main {
-	color: #e5e5e5;
+.header, h1 {
+	color: #fff;
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container {
+	margin-top: -30px;
+	width: 100%;
+	height: 100%;
+	background-color: #D3D3D3;
+}
+
+.aside_wrapper {
+	float: left;
+	position: absolute;
+	border: 1px solid #228B22;
+	width: 20%;
+	height: 100%;
+	background-color: #228B22;
+	padding-left: 20px;
+
+}
+
+.main_wrapper {
+	margin-top: 30px;
+	position: relative;
+	float: right;
+	right: 400px;
 }
