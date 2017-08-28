@@ -1,56 +1,37 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<title>Ping Pong</title>
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-</head>
-<body>
-<!-- Ping pong header -->
-	<div class="jumbotron text-center" id="header">
-		<h1>Ping Pong</h1>
-	</div>
-<!-- end of header -->
-<!-- ping pong aside bar -->
-	<div class="row">
-		<aside class="col-5">
-			<h3>About Ping Pong</h3>
-			<h4>Created by:</h4>
-			<p>Anthony Muna</p>
-			<h4>Github URL:</h4>
-			<a href="https://github.com/anthonymuna" target="_blank">anthonymuna</a>
-			<h4>Level 2 Test for:</h4>
-			<p>Java</p>
-		</aside>
-<!-- end of side bar -->
-<!-- ping pong main body -->
-		<main class="col-7">
-			<h2>Let's play!</h2>
-			<h4>Rules:</h4>
-			<p>Ping pong will count up to your number from 1 with the following exceptions:</p>
-			<ol>
-				<li>Numbers divisible by 3 become 'ping'</li>
-				<li>Numbers divisible by 5 become 'pong'</li>
-				<li>Numbers divisible by 3 and 5 become 'pingpong'</li>
-			</ol>
-			<label>Enter your number here: <input type="number" id="myInput"><button class="btn btn-primary"><i class="fa fa-check-square-o">Ping Pong!</i></button></label>
-		</main>
-	</div>
-<!-- end of main body -->
-<!-- orderd list of viewing results -->
-	<div class="row">
-		<div class="col-12">
-			<ol class="view-results">
-				<li></li>
-				<li></li>
-			</ol>
+	<head>
+		<title>Ping Pong</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+		<div class="header"><h1>Ping Pong</h1></div>
+		<div class="aside_wrapper">
+			<aside>
+				<h1>About Ping Pong</h1>
+				<h2>Created by:</h2>
+				<p>Anthony Kamau</p>
+				<h2>Github username/url:</h2>
+				<a href="https://github.com/anthonymuna">anthonymuna</a>
+				<h2>Level 2 Test for:</h2>
+				<p>Java</p>
+			</aside>
 		</div>
-	</div>
-<script type="text/javascript" src="js/custom.js"></script>
-<script type="text/javascript" src="js/popper.js"></script>
-<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-</body>
+		<div class="container">
+			<div class="main_wrapper">
+				<main>
+					<h1>Let's play!</h1>
+					<h2>Rules:</h2>
+					<p>
+					ping pong will count up to your number from 1 with the following exceptions:
+						<ol>
+							<li>Numbers divisible by 3 become "ping"</li>
+							<li>Numbers divisible by 5 become "pong"</li>
+							<li>Numbers divisible by 3 and 5 become "pingpong"</li>
+						</ol>
+					</p>
+					<label>Enter your number here:<input type="number" id="myInput"><input type="submit" value="Ping Pong!"></label>
+				</main>
+			</div>
+		</div>
+	</body>
 </html>
